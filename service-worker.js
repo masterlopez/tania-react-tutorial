@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/formwiki-react/precache-manifest.7380fe79a693f1a9854085810df5efad.js"
+  "/tania-react-tutorial/precache-manifest.e1fdad9bf7761c5381be68f67f493cd2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/formwiki-react/index.html", {
+workbox.routing.registerNavigationRoute("/tania-react-tutorial/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
