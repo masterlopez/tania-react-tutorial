@@ -1,19 +1,23 @@
 {
   "name": "tania-react-tutorial",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
   },
+  "homepage": "https://masterlopez.github.io/tania-react-tutorial",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -23,6 +27,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage": "https://masterlopez.github.io/tania-react-tutorial"
+  ]
 }

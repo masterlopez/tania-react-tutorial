@@ -26,6 +26,7 @@ class App extends Component {
 
     return (
       <div className="container">
+        <h1>Form using React JS</h1>
         <Table
           characterData={characters}
           removeCharacter={this.removeCharacter}
